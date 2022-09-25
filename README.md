@@ -1,6 +1,7 @@
 This project was bootstrapped with Create React App.
-
---------------------------------
+------------------------------------------------
+Single Page Application desarrollada en base a React Router, useState, useEffect y useContext.
+------------------------------------------------
 
 DESCRIPCIÓN
 
