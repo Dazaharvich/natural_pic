@@ -1,0 +1,59 @@
+.galeria {
+  display: grid;
+  gap: 20px;
+}
+
+.grid-columns-5 {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid-columns-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.galeria .imagenCard {
+  cursor: pointer;
+  padding: 10px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: left;
+  text-shadow: 0px 0px 10px black;
+  border-radius: 20px;
+  box-shadow: 5px 10px 10px 5px rgb(80, 80, 80);
+}
+
+.galeria .imagenCard:hover {
+  border-radius:25px;
+  box-shadow: 7px 12px 12px 7px rgb(80, 80, 80);
+
+}
+
+.galeria .imagenCard svg {
+  cursor: pointer;
+  align-self: flex-end;
+
+}
+
+
+.p-3 {
+  padding: 30px;
+}
+
+p{
+  color:white;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.autor{
+  font-style: italic;
+  font-weight: 700;
+}
+
+i{
+  font-size: 2rem;
+}
